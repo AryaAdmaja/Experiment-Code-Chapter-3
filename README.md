@@ -13,7 +13,7 @@ BIG DATA - Chapter 3
 ## Accumulator
 ![S2](https://user-images.githubusercontent.com/90190923/227859117-f8ac90a5-e535-49f3-956f-9daf6690e903.jpg)
 
-Fungsi accumulator (bertujuan akumulasi shared variable) berhasil dijalankan dengan output "4950".
+Fungsi accumulator digunakan untuk mengakumulasi nilai dari beberapa task yang dijalankan pada Spark, sehingga nilai dari accumulator akan terus seiring bertambah
 
 ## Broadcast
 ![S3](https://user-images.githubusercontent.com/90190923/227859205-a83bd438-b2b2-4dbb-bae2-043c493b782a.jpg)
@@ -49,4 +49,4 @@ Membuat sebuah list, dengan mempraktikan yaitu menghitung jumlah partisi, elemen
 ## WordCount
 ![S6](https://user-images.githubusercontent.com/90190923/227859957-33042d5b-9f19-4f9d-bb86-db2c2d395884.jpg)
 
-Menghitung jumlah kata yang ada suatu file (test.txt).
+WordCount digunakan untuk menghitung frekuensi kemunculan kata dalam sebuah teks atau dokumen.
