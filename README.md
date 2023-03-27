@@ -23,7 +23,7 @@ Fungsi Broadcast (Membuat variabel broadcast) sesuai range dan untuk mengakses n
 ## PairRDD
 ![S4](https://user-images.githubusercontent.com/90190923/227859424-f2b13bf6-4a83-4280-8b24-70131ad4054b.jpg)
 
-Hasil : Berhasil. fungsi dasar dari sebuah collection. 
+Fungsi :
 - method maps digunakan untuk mapping sebuah collection 
 - key: variabel myList
 - value: jumlah huruf dari tiap" kata variabel myList
