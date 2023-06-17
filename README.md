@@ -13,23 +13,17 @@ BIG DATA - Chapter 3
 ## Accumulator
 ![S2](https://user-images.githubusercontent.com/90190923/227859117-f8ac90a5-e535-49f3-956f-9daf6690e903.jpg)
 
-Fungsi accumulator digunakan untuk mengakumulasi nilai dari beberapa task yang dijalankan pada Spark, sehingga nilai dari accumulator akan terus seiring bertambah
+Kode tersebut  digunakan untuk menghitung jumlah dari semua elemen dalam RDD menggunakan accumulator pada Apache Spark.
 
 ## Broadcast
 ![S3](https://user-images.githubusercontent.com/90190923/227859205-a83bd438-b2b2-4dbb-bae2-043c493b782a.jpg)
 
-Fungsi Broadcast (Membuat variabel broadcast) sesuai range dan untuk mengakses nilai matriks / array menggunakan atribut broadcastVar.value
+Kode tersebut digunakan untuk membuat sebuah variabel yang disiarkan ke seluruh node pada cluster Spark dengan menggunakan fungsi broadcast, kemudian mengembalikan nilai dari variabel tersebut dengan memanggil broadcastVar.value
 
 ## PairRDD
 ![S4](https://user-images.githubusercontent.com/90190923/227859424-f2b13bf6-4a83-4280-8b24-70131ad4054b.jpg)
 
-Fungsi :
-- method maps digunakan untuk mapping sebuah collection 
-- key: variabel myList
-- value: jumlah huruf dari tiap" kata variabel myList
-- myPairRDD.collect(): print collection
-- myPairRDD.keys().collect(): print key pada collection
-- myPairRDD.values().collect(): print values pada collection
+ Kode tersebut digunakan untuk membuat RDD dengan nama myRDD yang berisi tiga string, kemudian mengubah RDD tersebut menjadi RDD pasangan menggunakan fungsi map. Selanjutnya, fungsi keys dan values digunakan untuk mengambil kunci dan nilai dari RDD pasangan tersebut, dan fungsi collect digunakan untuk mengembalikan daftar kunci dan nilai. Dengan demikian, kode tersebut menghasilkan daftar kunci dan nilai dari RDD pasangan secara terpisah.
 
 ## SystemCommandsOutput
 ![S7](https://user-images.githubusercontent.com/90190923/227860364-1cdb806f-eab5-42ad-b742-974fc14e8789.jpeg)
